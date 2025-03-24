@@ -11,6 +11,6 @@ string sobrenome = Console.ReadLine();
 
 Console.WriteLine($"Nome completo: {nome} {sobrenome}");
 
-Console.WriteLine($"Nome de catalogo: {sobrenome} {nome}");
+Console.WriteLine($"Nome de catalogo: {sobrenome.ToUpper()!}, {nome}");
 
 Console.ReadKey();
